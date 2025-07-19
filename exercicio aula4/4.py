@@ -1,11 +1,11 @@
-#4. Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+print('Olá, vou precisar que você me diga sua nota nos 4 últimos bimestres!')
 
-L = input('Digite alguma letra: ')
+n1 = float(input('bimestre 1: '))
+n2 = float(input('bimestre 2: '))
+n3 = float(input('bimestre 3: '))
+n4 = float(input('bimestre 4: '))
 
+soma = n1 + n2 + n3 + n4 
+divisao = soma / 4
 
-if L in "a, e, i, o, u":
-    print(f'{L} é um vogal! ')
-
-else:
-    print(f'{L} é uma consoante! ')
-    
+print(f"Sua média é : ", divisao)

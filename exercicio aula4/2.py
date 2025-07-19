@@ -1,10 +1,3 @@
-n = float(input('Digite um número: '))
+numero = input('digite um número de 1 a 10 : ')
 
-if n == 0:
-    print(f'ZERO')
-
-elif n > 0:
-    print(f'{n} é +')
-
-elif n < 0:
-    print(f'{n} é -')
+print('o número que você digitou é:', numero)
